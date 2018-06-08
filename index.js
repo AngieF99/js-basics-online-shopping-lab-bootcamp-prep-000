@@ -60,9 +60,7 @@ function removeFromCart(itemName) {
        return cart
    }
  }
- else{
-     return `That item is not in your cart.`
-   }
+  return `That item is not in your cart.`
 }
 
 function placeOrder(cardNumber) {
