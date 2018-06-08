@@ -54,7 +54,6 @@ function total() {
 
 function removeFromCart(itemName) {
  for(let i = 0; i < getCart().length; i++) {
-   debugger
    if(cart[i].itemName === itemName) {
        cart.splice( i ,1)
        return cart
